@@ -2,12 +2,13 @@ import time
 
 print("HESAP MAKINESI!!!")
 
-time.sleep(1)
-
 while True:
-
-    first = int(input("ilk sayıyı girin (Herhangi bir sayı)"))
-    second = int(input("ikinci sayıyı girin (Herhangi bir sayı)"))
+    
+    time.sleep(1)
+    
+    first = float(input("ilk sayıyı girin (Herhangi bir sayı)"))
+    second = float(input("ikinci sayıyı girin (Herhangi bir sayı)"))
+        
     symbol = input("Birini seçin (+ - * /)")
 
 
